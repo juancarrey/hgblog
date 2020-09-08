@@ -54,6 +54,7 @@ Think on the goal architecture, and start simplifying, adding minimum and lightw
 hidding implementation details and allowing future functionality additions with no interface changes.
 
 My top list would be:
+
  * Authorization and authentication - It depends on the business, but if you can get rid of managing roles and permissions on MVP, please do.
  * Logging - Basic logging to troubleshoot issues
  * Decoupled domains with bullet proof interfaces - Avoid refactor nightmare
@@ -66,6 +67,7 @@ My top list would be:
 Anything that adds un-needed complexity for MVP features and that does not add a future refactor risk and pain
 
 My top list would be:
+
  * Microservices
  * Multi-repository
  * Async communication / buses
