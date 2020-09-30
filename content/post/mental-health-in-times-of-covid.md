@@ -16,7 +16,7 @@ your happiness for almost a third of your lifetime.
 
 ## The issue is cultural
 
-It is also not uncommon to be asked to work on weekends, put extra time to meet artificial deadlines (that are often then forgotten about), 
+At most of the workplaces, it is not uncommon to be asked to work on weekends, put extra time to meet artificial deadlines (that are often then forgotten about), 
 even work outside of your working hours just to meet timezone differences, all these things affects your mental health and energy, and when it is asked for
 and granted, it becomes a de-facto standard. Once you accept to do them, you are expected to always accept them, and at some point, managers will stop asking for it.
 
