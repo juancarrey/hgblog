@@ -44,7 +44,7 @@ employees to go to their office to work, even having kids with kindergarden and 
 
 ## More bad than good
 
-The thing is that, at the end of the day, all those companies where these bad habits mentioned are often less productive, because
+The thing is that, at the end of the day, all those companies where these bad habits are business as usual, are often the ones with lower productivity, because
 the biggest boost of productivity of all is mental health, it helps you keep focus, it helps you think better and quicker, be more open to teamwork,
 allows you to control your emotions which ends up having a great team environment, and teams will always outperform individuals.
 
