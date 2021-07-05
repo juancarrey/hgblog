@@ -1,5 +1,5 @@
 +++
-title = "The story begins"
+title = "Episode I: The story begins"
 date = "2021-07-05"
 description = "This is the story of why and how I decided to start building a remote job board"
 tags = [
