@@ -138,13 +138,15 @@ It doesn't exist, but "Good" makes a perfectly readable code and is good enough.
 * Not stating what the intent is but just what they are (above18YearsOld vs canDrinkAlcohol)
 
 
-## Intent
+## Summary
 
-The most important fact of all to name things is to look for the intent of the thing you are naming, what is it really doing ? 
+The most important fact of all to name things is to look for the intent of the thing you are naming.
+The name should define what is it really doing ? 
 
-If the bussines rules change or if the implementation details change, would it affect the name ? On the sample above, on some countries the age for drinking alcohol is 18, how would that affect our code ? 
+We need to figure out if a change in the bussines rules change will change just the implementation or also the name ?.
+On the sample above, on some countries the age for drinking alcohol is 18. How would that affect our code ? 
 
-On the last one, just the implementation, but not the name of the variable nor method, if that happens to you, congratulations, you found a good enough name for the thing.
+If that does not happen to you, congratulations, you found a good enough name.
 
 
 Gladly, Juan 🌍🌳
