@@ -14,7 +14,8 @@ I believe most of the times names should come straight forward, it may not be th
 The goal of a good naming strategy is to make the code readable at first sight, that means, without having to go jumping around code blocks to figure out what is it doing. 
 It makes sense to do that when there is a bug, because it would mean that the name of the method or the function is not really doing what is supposed to, so there should be a miss match between what it says it does and what it really does.
 
-If the naming is good it really helps finding bugs, but if it is bad it does the oposite, helps the developer add bugs because what's supposed to be doing is not clear.
+If the naming is good, it really helps finding bugs
+If the naming is badm it does the oposite, it encourages developers to add bugs because they have to figure out what it is supposed to do in the first place.
 
 
 ## Things to name
@@ -34,14 +35,11 @@ There is levels of quality on naming stuff, and like everything in life, you sho
 
 How should we name stuff ? Let's dive in some principles:
 
-Some things like methods and functions are meant to have a single reponsability, which can be higher or lower level, but in essence one important thing.
-This also applies to variables, they should have one single responsability, I would say it's a code smell otherwise.
-
  * Single Responsability of variables, methods and functions
  * Declare the intent of what the thing does
- * Declare the contents of what the variable holded
+ * Declare the contents of what the variable holds
  * Try to use concise names rather than generic ones that super-sets what a variable contain (life-form vs human vs person vs kid vs teenager)
- * Methods do things that have a meaning or intent, name that and not the implementation details (what instead of how)
+ * Name the intent, encapsulate implementation (what instead of how)
  
 Let's see some of these applied in examples:
 
@@ -77,6 +75,22 @@ Any variable that states what it is but not what it holds or what the intent is,
   fn greaterThan21(person: Person): bool { return person.age > 21 }
 ```
 
+Avoid function or methods names that explain when the function or method is executed, this is pretty common on javascript for callbacks:
+
+```
+  const onClick = { .... };
+  
+  <Compnent onClick={onClick} />
+```
+
+Avoid using the type for names of things:
+
+```
+ const [peopleList, setPeopleList] = useState([]);
+ cosnt dataList = useQuery(...);
+ const mutator = { getPeopleList().then(list => { setPeopleList(list); }); }
+```
+
 ### Ok
 
 Using simple names that states what the variable is holding
@@ -99,6 +113,14 @@ Using names that states what the variable is holding and what's their intent
   const familyMembersThatCanDrinkAlcohol = familyMembers.filter(canDrinkAlcohol);
   
   fn canDrinkAlcohol(person: Person): bool { return person.age > 21 }
+```
+
+On the UI, following the bad naming example, a good enough way to name callbacks would be something like:
+
+```
+ const sortContactsByLastNameDescencing = { .... };
+ 
+ <Compnent onClick={sortContactsByLastNameDescencing} />
 ```
 
 ### Perfect
